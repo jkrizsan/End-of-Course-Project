@@ -26,6 +26,7 @@
 - The backend must be able to store data in case the user wants to add indicators or forecast market trends.
 - The backend must be able to calculate indicator values (RSI 14, Bollinger Bands, SMA with multiple time period options).
 - If a user requests to forecast market prices, the system should choose at least a 1-year training period.
+- Use TensorFlow for the market forecasting.
 - Follow clean code principles, SOLID design principles, and best practices for design patterns.
 - The code needs to be unit testable, and unit tests should be generated for it.
 - Generate Postman integration tests.
