@@ -1,0 +1,12 @@
+Flask
+Flask-RESTful
+requests
+pandas
+numpy
+tensorflow
+
+axios
+react-chartjs-2
+chart.js
+moment
+react-datepicker
