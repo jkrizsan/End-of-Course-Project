@@ -1,0 +1,13 @@
+/* src/styles.css */
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+select {
+  margin: 10px;
+}
+
+label {
+  margin: 5px;
+}  
