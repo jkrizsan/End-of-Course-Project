@@ -21,3 +21,4 @@
 - The backend must be able to calculate indicator values (Bollinger Bands, SMA and EMA).
 - Follow clean code principles, SOLID design principles, and best practices for design patterns.
 - The code needs to be unit testable.
+
