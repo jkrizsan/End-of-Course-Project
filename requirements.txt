@@ -1,17 +1,21 @@
-Flask
-Flask-RESTful
-requests
-pandas
+Backend Setup(windows):
+
+cd backend
+python -m venv venv
+venv\Scripts\activate
+pip install flask_cors
+pip install flask_restful
+pip install yfinance
 
 Run Backend:
 python -m venv venv
 venv\Scripts\activate
 flask run
 
-Frontend Requirements:
-npx create-react-app frontend
-cd frontend
-git clone
+Frontend Setup(windows):
+npx create-react-app frontend_test
+cd frontend_test
+copy all content of frontend folder into the frontend_test folder
 
 npm install react-stockcharts axios moment react-datepicker
 npm install react-stockcharts@latest
