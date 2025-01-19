@@ -2,11 +2,21 @@ Flask
 Flask-RESTful
 requests
 pandas
-numpy
-tensorflow
 
-axios
-react-chartjs-2
-chart.js
-moment
-react-datepicker
+Run Backend:
+python -m venv venv
+venv\Scripts\activate
+flask run
+
+Frontend Requirements:
+npx create-react-app frontend
+cd frontend
+git clone
+
+npm install react-stockcharts axios moment react-datepicker
+npm install react-stockcharts@latest
+npm install react-financial-charts
+npm install react-financial-charts d3-scale axios react-datepicker
+
+Run Frontend:
+npm start
