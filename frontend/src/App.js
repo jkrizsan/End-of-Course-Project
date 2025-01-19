@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import CandlestickChart from './components/Chart/CandlestickChart';
 import Dropdown from './components/Dropdown/Dropdown';
 import DatePickerComponent from './components/DatePicker/DatePickerComponent';
@@ -26,8 +26,13 @@ const App = () => {
 
     const handleIndicatorChange = (updatedIndicators) => {
         setIndicators(updatedIndicators);
-        refetch(selectedStock, startDate, endDate, selectedFormat, updatedIndicators); // Call refetch with updated indicators
+        refetch(selectedStock, startDate, endDate, selectedFormat, updatedIndicators);
     };
+
+    // Refetch data when the selected time format changes
+    useEffect(() => {
+        refetch(selectedStock, startDate, endDate, selectedFormat, indicators);
+    }, [selectedFormat]);
 
     return (
         <div className="App">
